@@ -8,6 +8,11 @@ export const GenericContainer = styled.div`
 `;
 
 GenericContainer.Title = styled(GenericContainer)`
-  font-weight: 600;
-  margin-left: 10px;
-`
+	font-weight: 600;
+	margin-left: 20px;
+	font-size: 45px;
+
+	&:first-of-type {
+		margin-left: 0;
+	}
+`;

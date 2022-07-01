@@ -6,8 +6,8 @@ const Generic = () => {
   const location = useLocation()
   return (
     <GenericContainer>
-      <GenericContainer.Title>{location.pathname}</GenericContainer.Title>
       <GenericContainer.Title>Generic</GenericContainer.Title>
+      <GenericContainer.Title>{location.pathname}</GenericContainer.Title>
     </GenericContainer>
   )
 }
