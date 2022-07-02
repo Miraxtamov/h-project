@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { Route, Routes, Router } from "react-router-dom";
 import Generic from "../generic/index";
 import Properties from "../components/Properties";
+import Footer from "../components/Footer";
 
 const Root = () => {
 	return (
@@ -17,6 +18,7 @@ const Root = () => {
 				<Route path="/login" element={<Generic />}></Route>
 				<Route path="*" element={"404 not found"}></Route>
 			</Routes>
+			<Footer />
 		</div>
 		// </Router>
 	);

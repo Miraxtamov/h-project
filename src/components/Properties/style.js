@@ -72,29 +72,38 @@ export const SpanBold = styled.span`
 	margin-right: 5px;
 `;
 
-
 export const CardItem1 = styled.div`
 	border: 1px solid #e6e9ec;
 	border-radius: 3px;
+	padding: 1px;
+	position: relative;
+  width: 100%;
 `;
 
 export const CardItemImg = styled.img`
-  width: 100%;
 	position: relative;
 	margin-bottom: -50px;
 	z-index: 0;
+	width: 100%;
+`;
+
+export const CardItemSaleProfileImg = styled.div`
+	position: absolute;
+	top: 18px;
+	/* left: 3%; */
+	width: 100%;
+	height: 222px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
 `;
 
 export const CardItemSales = styled.div`
-	position: relative;
-	z-index: 1;
-	top: -155px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	padding-right: 20px;
-	padding-left: 20px;
-  margin-top: 20px;
 	color: #ffffff;
 `;
 
@@ -111,13 +120,14 @@ export const CardItemSale = styled(CardItemFeatured)`
 export const CardProfileImg = styled.img`
 	z-index: 1;
 	position: relative;
-  top: -22px;
-	left: 295px;
+	top: -22px;
 	width: 38px;
 	height: 38px;
 	box-shadow: 0px 0px 10px rgba(13, 38, 59, 0.2);
 	border: 2px solid #ffffff;
 	border-radius: 50%;
+	margin-left: auto;
+  margin-top: auto;
 `;
 
 export const CardItemTitle = styled.h1`
@@ -126,7 +136,7 @@ export const CardItemTitle = styled.h1`
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 4px;
-  margin-top: -15px;
+	margin-top: 70px;
 	padding-left: 20px;
 `;
 

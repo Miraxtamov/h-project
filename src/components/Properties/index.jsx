@@ -31,6 +31,7 @@ import {
 	CardItemSale,
 	CardItemSales,
 	CardItemTitle,
+	CardItemSaleProfileImg,
 } from "./style";
 
 import cardHouse1 from "../../assets/img/cardHouses.png";
@@ -69,11 +70,13 @@ const Properties = () => {
 			<CardContainer>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -110,11 +113,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse2} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -151,11 +156,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg>
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -192,11 +199,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -233,11 +242,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse2} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -274,11 +285,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -315,11 +328,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -356,11 +371,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse2} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -397,11 +414,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -438,11 +457,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -479,11 +500,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse2} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -520,11 +543,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -561,11 +586,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -602,11 +629,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse2} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
@@ -643,11 +672,13 @@ const Properties = () => {
 				</CardItem1>
 				<CardItem1>
 					<CardItemImg src={cardHouse1} />
-					<CardItemSales>
-						<CardItemFeatured>FEATURED</CardItemFeatured>
-						<CardItemSale>FOR SALE</CardItemSale>
-					</CardItemSales>
-					<CardProfileImg src={cardProfile} />
+					<CardItemSaleProfileImg>
+						<CardItemSales>
+							<CardItemFeatured>FEATURED</CardItemFeatured>
+							<CardItemSale>FOR SALE</CardItemSale>
+						</CardItemSales>
+						<CardProfileImg src={cardProfile} />
+					</CardItemSaleProfileImg> 
 					<CardItemTitle>New Apartment Nice Wiew</CardItemTitle>
 					<CardItemDescription>
 						Quincy St, Brooklyn, NY, USA
