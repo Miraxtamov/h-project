@@ -16,35 +16,32 @@ import {
 
 const Navbar = () => {
 	return (
-		<>
-			<Nav>
-				<Nav.NavbarClass>
-					<Logo>
-						<LogoLink to="/">
-							<LogoImg src={logo} />
-							<LogoTitle>Houzing</LogoTitle>
-						</LogoLink>
-					</Logo>
-					<Navigation>
-						<UlNavList>
-							<NavItem>
-								<NavLinkHref to={"/home"}>Home</NavLinkHref>
-							</NavItem>
-							<NavItem>
-								<NavLinkHref to={"/properties"}>Properties</NavLinkHref>
-							</NavItem>
-							<NavItem>
-								<NavLinkHref to={"contacts"}>Contacts</NavLinkHref>
-							</NavItem>
-							<NavLinkHref to={"/login"}>
-								<NavButton>Login</NavButton>
-							</NavLinkHref>
-						</UlNavList>
-					</Navigation>
-				</Nav.NavbarClass>
-			</Nav>
-			<FilterSearchButton />
-		</>
+		<Nav>
+			<Nav.NavbarClass>
+				<Logo>
+					<LogoLink to="/">
+						<LogoImg src={logo} />
+						<LogoTitle>Houzing</LogoTitle>
+					</LogoLink>
+				</Logo>
+				<Navigation>
+					<UlNavList>
+						<NavItem>
+							<NavLinkHref to={"/home"}>Home</NavLinkHref>
+						</NavItem>
+						<NavItem>
+							<NavLinkHref to={"/properties"}>Properties</NavLinkHref>
+						</NavItem>
+						<NavItem>
+							<NavLinkHref to={"contacts"}>Contacts</NavLinkHref>
+						</NavItem>
+						<NavLinkHref to={"/login"}>
+							<NavButton>Login</NavButton>
+						</NavLinkHref>
+					</UlNavList>
+				</Navigation>
+			</Nav.NavbarClass>
+		</Nav>
 	);
 };
 

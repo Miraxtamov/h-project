@@ -23,7 +23,7 @@ const Login = () => {
 				</div>
 				<SignInForgot href="#">Forgot</SignInForgot>
 			</CheckboxRememberForgot>
-      <LoginBtn>Login</LoginBtn>
+			<LoginBtn>Login</LoginBtn>
 		</Container>
 	);
 };

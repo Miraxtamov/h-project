@@ -85,13 +85,11 @@ export const FooterSocialMedia = styled.div`
 export const FooterSocialLink = styled.a`
 	${FooterSocialLinks}
 	margin-left: ${(props) => (props.facebook ? "0" : "26px")};
-
-  
 `;
 
 export const FooterSocialLinkImg = styled.img`
-padding: 11px;
-color: #ffffff;
+	padding: 11px;
+	color: #ffffff;
 	&:hover {
 		background-color: rgba(255, 255, 255, 0.1);
 		border-radius: 3px;

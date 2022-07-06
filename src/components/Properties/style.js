@@ -77,7 +77,7 @@ export const CardItem1 = styled.div`
 	border-radius: 3px;
 	padding: 1px;
 	position: relative;
-  width: 100%;
+	width: 100%;
 `;
 
 export const CardItemImg = styled.img`
@@ -97,8 +97,8 @@ export const CardItemSaleProfileImg = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-  padding-right: 20px;
-  padding-left: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 `;
 
 export const CardItemSales = styled.div`
@@ -127,7 +127,7 @@ export const CardProfileImg = styled.img`
 	border: 2px solid #ffffff;
 	border-radius: 50%;
 	margin-left: auto;
-  margin-top: auto;
+	margin-top: auto;
 `;
 
 export const CardItemTitle = styled.h1`
