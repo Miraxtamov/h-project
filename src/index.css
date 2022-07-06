@@ -10,3 +10,7 @@
 	transition: all 0.3s ease;
 	scroll-behavior: smooth;
 }
+
+input:focus {
+	border-bottom: 2px solid #0061df;
+}
