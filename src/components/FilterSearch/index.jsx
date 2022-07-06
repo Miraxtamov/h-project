@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import statusIcon from "../../assets/icon/statusIcon.svg";
 import priceIcon from "../../assets/icon/priceIcon.svg";
 import advancedIcon from "../../assets/icon/advancedIcon.svg";
@@ -12,8 +12,15 @@ import {
 	FilterButtonImg,
 	FilterSearchButtonsSearch,
 } from "./style";
+import AdvancedModal from "../AdvancedModal";
 
 const FilterSearchButton = () => {
+	const [openModal, setOpenModal] = useState(false);
+
+	const openModalBtn = () => {
+		setOpenModal({ openModal: !openModal });
+	};
+
 	return (
 		<Container>
 			<FilterSearchContainer>
@@ -36,7 +43,7 @@ const FilterSearchButton = () => {
 					/>
 					Price
 				</FilterSearchButtons>
-				<FilterSearchButtons>
+				<FilterSearchButtons onClick={openModalBtn}>
 					<FilterButtonImg
 						src={advancedIcon}
 						alt="Status Icon"
@@ -55,6 +62,7 @@ const FilterSearchButton = () => {
 					Search
 				</FilterSearchButtonsSearch>
 			</FilterSearchContainer>
+			{openModal && <AdvancedModal closeModal={setOpenModal} />}
 		</Container>
 	);
 };

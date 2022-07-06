@@ -40,6 +40,7 @@ import {
 	FooterCopyrightArrowImg,
 	FooterCopyright,
 } from "./style";
+import { LogoImg } from "../Navbar/style";
 
 const Footer = () => {
 	return (
@@ -141,7 +142,7 @@ const Footer = () => {
 				<FooterCopyright>
 					<Logo>
 						<LogoLink href="#">
-							<img src={logo} alt="Navbar logo" />
+							<LogoImg src={logo} alt="Navbar logo" />
 							<LogoTitle>Houzing</LogoTitle>
 						</LogoLink>
 					</Logo>
